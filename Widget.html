@@ -41,21 +41,21 @@
 <script>
     $( function() {
         $( ".dragred").draggable({
-            stop : function r() {}
+            stop : function r() {aptrinsic('track','dragevent',{"name":"red drag", "color" : 'red'});}
             
         })
       } );
 
       $( function() {
         $( ".dragblue").draggable({
-            stop : function r() {}
+            stop : function r() {aptrinsic('track','dragevent',{"name":"blue drag", "color" : 'blue'});}
             
         })
       } );
 
       $( function() {
         $( ".draggreen").draggable({
-            stop : function r() {aptrinsic('track', 'dragcustomevent', {"name":"Drag green","Color":"green","event" :drag}); }
+            stop : function r() {aptrinsic('track','dragevent',{"name":"green drag", "color" : 'green'}); }
             
         })
       } );
