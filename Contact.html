@@ -44,17 +44,19 @@
          <input type="email" name="email" required>
          </p>
       
-       <p>
-           <label for = "Gender"> Gender:</label>
-       <select>
-           <option value="">--select--</option>
-          <option id="m" value="Male">Male</option>
-             <option id="f" value="Female">Female</option>
-             <option id="o" value="Other">Other</option>
-             <option value="NA">Skip</option>
-       </select>
-       </p>
-    
+     
+    <div class="btn-group show-on-hover">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Action <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Female</a></li>
+            <li><a href="#">Male</a></li>
+            <li><a href="#">Others</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </div>
        <p>
         <label for = "Role"> Role:</label>
     <select id="Role" name = "Role">
