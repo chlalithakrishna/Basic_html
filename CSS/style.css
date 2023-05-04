@@ -102,3 +102,6 @@ background: whitesmoke;
       background-color: green;
 }
 
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
