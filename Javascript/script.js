@@ -18,13 +18,13 @@ aptrinsic("identify",
   //User Fields
     "id": b, // Required for logged in app users
     "email": a,
-    "firstName": "John",
-    "lastName": "Smith"
+    "firstName": "Lalitha",
+    "lastName": "Krishna"
   },
   {
   //Account Fields
-    "id":"AM", //Required
-    "name":"Amazon"
+    "id":"1P02IGP0ZP5EK6RXO71M47ULIVJQXHFR1QZZ", //Required
+    "name":"Paypal"
  });
       
         alert('valid user');
