@@ -23,8 +23,8 @@ aptrinsic("identify",
   },
   {
   //Account Fields
-    "id":"1P02IGP0ZP5EK6RXO71M47ULIVJQXHFR1QZZ", //Required
-    "name":"Paypal"
+    "id":"1P02IGP0ZP5EK6RXO7P85X9GKP1LRRCPG4QO", //Required
+    "name":"Demo Company for PX"
  });
       
         alert('valid user');
