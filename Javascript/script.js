@@ -5,7 +5,7 @@
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
   })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-OYIBE2USXLTJ-2");
 
-(function(w,d,s){var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='//embeddable-widgets-euw1.insided.com/communitytraining-en-sandbox.insided-conversational.js';f.parentNode.insertBefore(j,f);})(window,document,'script');
+
 
 function allowlogin(usermail)
 {
