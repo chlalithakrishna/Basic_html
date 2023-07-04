@@ -32,6 +32,28 @@ aptrinsic("identify",
         alert('valid user');
         location.href = "Page1.html";
     }
+      if (a == 'testuser@gmail.com')
+    { 
+        var b= a.substr(0,5);
+      
+      //passing user and account objects:
+aptrinsic("identify",
+  {
+  //User Fields
+    "id": b, // Required for logged in app users
+    "email": a,
+    "firstName": "test",
+    "lastName": "User"
+  },
+  {
+  //Account Fields
+    "id":"1P02IGP0ZP5EK6RXO7P85X9GKP1LRRCPG4QO", //Required
+    "name":"Demo Company for PX"
+ });
+      
+        alert('valid user');
+        location.href = "Page1.html";
+    }
     else if(a == '')
     {
         alert('invalid User. Enter demouser@gmail.com as username');
