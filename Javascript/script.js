@@ -10,7 +10,7 @@
 function allowlogin(usermail)
 {
     var a = document.getElementById("usermail").value;
-    if (a == 'demouser@gmail.com' || a == 'lkchittajallu@gainsight.com')
+    if (a == 'demouser@gmail.com' || a == 'lkchittajallu@gainsight.com' || a=='demo2user2@gmail.com')
     { 
         var b= a.substr(0,5);
       
