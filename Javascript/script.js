@@ -21,7 +21,8 @@ aptrinsic("identify",
     "id": b, // Required for logged in app users
     "email": a,
     "firstName": "Lalitha",
-    "lastName": "Krishna"
+    "lastName": "Krishna",
+    "Language": "hi"
   },
   {
   //Account Fields
