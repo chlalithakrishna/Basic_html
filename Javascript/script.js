@@ -10,7 +10,7 @@
 function allowlogin(usermail)
 {
     var a = document.getElementById("usermail").value;
-    if (a == 'demouser@gmail.com' || a == 'lkchittajallu@gainsight.com' || a=='demouser3@gmail.com')
+    if (a == 'demouser@gmail.com' || a == 'lalitha@gainsight.com' || a=='demouser3@gmail.com')
     { 
         var b= a.substr(0,5);
       
@@ -22,7 +22,7 @@ aptrinsic("identify",
     "email": a,
     "firstName": "Lalitha",
     "lastName": "Krishna",
-    "Language": "hi"
+    "Language": "ja"
   },
   {
   //Account Fields
